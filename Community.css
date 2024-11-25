@@ -179,8 +179,7 @@ span:hover::before {
     bottom: 15px;
     display: flex;
     justify-content: end;
-    width: 100%;
-
+    right: 15px;
 }
 
 .arrow>a>img {
