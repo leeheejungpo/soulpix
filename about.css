@@ -176,18 +176,17 @@ span:hover::before {
 
 /* 탑 배너 */
 
-.top {
-    width: 1920px;
-    height: 780px;
-    margin: auto;
+.top img {
+    width: 100%;
 }
+
 
 /* 브랜드 로고 */
 
 .top_box {
-    width: 1472px;
+    width: 1320px;
     height: 1566px;
-    background: url(./aboutimg/about_1.png) no-repeat 50% 50%;
+    background: url(./aboutimg/about_1.png) no-repeat 50% 50% / contain;
     margin: 115px auto;
 }
 
@@ -481,7 +480,7 @@ margin: auto;
     position: absolute;
     color: #fff;
     font-size:15px;
-    font-weight: 100;
+    font-weight: 300;
     transition: all 0.5s;
     z-index: 2;
     bottom: -180px;
@@ -494,7 +493,7 @@ margin: auto;
     position: absolute;
     color: #fff;
     font-size:15px;
-    font-weight: 100;
+    font-weight: 300;
     transition: all 0.5s;
     z-index: 2;
     bottom: -180px;
@@ -706,7 +705,7 @@ footer {
     bottom: 15px;
     display: flex;
     justify-content: end;
-    width: 100%;
+    right: 15px;
 
 }
 

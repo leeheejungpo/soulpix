@@ -75,14 +75,14 @@ $(function(){
 });
 
 
-var swiper = new Swiper(".mySwiper4", {
+var swiper = new Swiper(".mySwiper4 .mySwiper4_in", {
   pagination: {
     el: ".swiper-pagination",
     type: "fraction",
   },
   navigation: {
-    nextEl: ".swiper-button-next",
-    prevEl: ".swiper-button-prev",
+    nextEl: ".mySwiper4 .swiper-button-next",
+    prevEl: ".mySwiper4 .swiper-button-prev",
   },
 });
 

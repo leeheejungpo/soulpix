@@ -203,12 +203,10 @@ span:hover::before {
 
 /* 탑 */
 
-
-.top_bg {
-    width: 1920px;
-    height: 780px;
-    margin: auto;
+.top_bg img {
+    width: 100%;
 }
+
 
 /* 탑 */
 
@@ -763,11 +761,23 @@ display: inline-block;
 
 
 .mySwiper4 {
-    width: 1720px;
+    width: 100%;
+    overflow: hidden;
+}
+.mySwiper4_in{
+    width: 1320px;
     margin: auto;
+    overflow: hidden;
 }
 
-
+.mySwiper4 .swiper-button-prev{
+    left: 50%;
+    margin-left: -750px;
+}
+.mySwiper4 .swiper-button-next{
+    right:50%;
+    margin-right: -750px;
+}
 
 
 
@@ -855,7 +865,7 @@ footer {
     bottom: 15px;
     display: flex;
     justify-content: end;
-    width: 100%;
+    right: 15px;
 
 }
 

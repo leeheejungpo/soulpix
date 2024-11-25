@@ -206,7 +206,7 @@ span:hover::before {
 
 .co_bg {
 
-    width: 1920px;
+    
     height: 780px;
     margin: auto;
     background: url(./Communityimg/co_bg.png) no-repeat 50% 50%;
@@ -409,7 +409,7 @@ span:hover::before {
     width: 1320px;
     display: flex;
     justify-content: end;
-    margin: 36px 280px;
+    margin: 36px auto;
 
 }
 
@@ -448,10 +448,12 @@ span:hover::before {
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
+    max-width: 40%;
 }
 
 .popup img {
     display: block;
+    width: 100%;
 }
 
 .popup p {
@@ -614,7 +616,7 @@ footer {
     bottom: 15px;
     display: flex;
     justify-content: end;
-    width: 100%;
+    right: 15px;
 
 }
 

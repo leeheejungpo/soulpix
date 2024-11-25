@@ -203,10 +203,9 @@ span:hover::before {
 /* 탑 배경 */
 
 .lab_bg {
-    width: 1920px;
     height: 780px;
-    margin: auto;
     background: url(./labimg/labtopbg.png) no-repeat 50% 50%;
+
 }
 
 .lab_text {
@@ -264,6 +263,9 @@ span:hover::before {
 
 .lab_img ul li {
     text-align: center;
+    flex: 1;
+    overflow: hidden;
+
 }
 
 .lab_img ul li a {
@@ -271,10 +273,19 @@ span:hover::before {
 }
 
 .lab_img>ul>li>a>img:hover {
-    transform: scale(1.2);
+    transform: scale(1.05);
     transition: 0.3s ease-in;
 }
 
+
+.lab> div {
+    width: 50%;
+}
+
+
+.lab_font {
+    width: 100%;
+}
 
 
 /* .lab_img .img2:hover {
@@ -729,7 +740,7 @@ footer {
     bottom: 15px;
     display: flex;
     justify-content: end;
-    width: 100%;
+    right: 15px;
 
 }
 
